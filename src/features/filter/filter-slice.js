@@ -22,9 +22,11 @@ const filterSlice = createSlice({
     }
 });
 
-// во внешний мир импортируем все єкшны
+// во внешний мир єкспортируем все єкшны
 export const {addFilter, removeFilter, clearFilter} = filterSlice.actions;
+
 // также єкспортируем фильтр редюсер
 export const filterReducer = filterSlice.reducer;
+
 // также переносим сюда селектор
-export const selectFilters = (state) => state.filters; // filters - ключ филтерРедюсера из комбаинРедюсера
+export const selectFilters = (state) => state.filters; // filters - ключ филтерРедюсера из комбаина в сторе
