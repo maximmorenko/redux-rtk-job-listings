@@ -4,12 +4,12 @@ const positionSlice = createSlice({
     name: '@@position',
     initialState: [],
     reducers: {
-        addPosition: (_, action) => action.payload,
+        addPositions: (_, action) => action.payload,
     },
 });
 
 // во внешний мир єкспортируем все єкшны
-export const {addPosition} = positionSlice.actions;
+export const {addPositions} = positionSlice.actions;
 
 // также єкспортируем фильтр редюсер
 export const positionReducer = positionSlice.reducer;

@@ -44,7 +44,7 @@ export const FilterPanel = () => {
                 </Stack>
                 <button 
                     className='link'
-                    onClick={() => dispatch(clearFilter)} //clearFilter объект с конкретныь типом события
+                    onClick={() => dispatch(clearFilter())} //clearFilter объект с конкретныь типом события
                 >Clear</button>
             </div>
         </Card>
