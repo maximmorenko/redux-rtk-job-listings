@@ -1,4 +1,7 @@
-## [react + redux job-listings DEMO](https://react-job-listings-with-filtering.vercel.app/)
+## [redux-toolkit job-listings-project DEMO](https://redux-rtk-job-listings.vercel.app/)
+
+## Небольшой сервис со списком задач и фильтрацией по ним. С использованием redux toolkit.
+- Адаптирован под разные устройства
 
 ## Рефакторин проекта с использованием Redux Toolkit
 - удаляем зависимость redux
@@ -7,8 +10,6 @@
 - стор переезжает в store.js в корне
 - все редюсеры экшны в отдельную папку фичи (features)
 - в ней две фичи, фильтр и позиции
-
-## Небольшой сервис со списком задач и фильтрацией по ним. С использованием фреймворка react + redux
 
 ## [Сертификат](https://www.udemy.com/certificate/UC-76e27f78-5f2a-48fe-8b32-c80bca3f9d89/)
 
